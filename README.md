@@ -34,6 +34,7 @@ const stringObj = new String('grace');
 | trimEnd()     | ' hello '.trimEnd()         | ' hello'                  | string      |
 | trimStart()   | ' hello '.trimStart()       | 'hello '                  | string      |
 | valueOf()     | stringObj.valueOf()         | grace                     | string      |
+| at()          | str.at(1)                   | 'e'                       | string      |
 | match()       | str.match(/[A-Z]/g)         | ["H", "L"]                | array       |
 | split()       | str.split()                 | ["HeLlo"]                 | array       |
 | split()       | str.split('')               | ["H", "e", "L", "l", "o"] | array       |
